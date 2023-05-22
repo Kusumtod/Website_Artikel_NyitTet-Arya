@@ -1,0 +1,107 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: #fffff0;
+    overflow-x: hidden;
+}
+
+/* Reusable CSS */
+iframe {
+    border: 10px solid #fff;
+    box-sizing: border-box;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color:  #40e0d0;
+}
+
+
+/* Hero */
+#hero {
+    color: #41424c;
+    font-size: 50px;
+}
+
+
+
+#ruangguru .ruangguru {
+    font-family: 'PT Serif', serif;
+    padding: 8px;
+    width: 160px;
+    font-weight: 550;
+    color: #fff;
+    background-color: #40e0d0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 992px) {
+    /* Navbar */
+    .navbar {
+        background: transparent;
+    }
+
+
+
+.navbar-brand,
+.navbar-nav {
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+.nav-link {
+    margin-left: 30px;
+}
+
+/* Hero */
+#hero {
+    color: #fff;
+    margin-top: -120px;
+    background: url(MambaulUlumBata-Bata_220831105411_whatsappimage2022-08-31at104714\ \(1\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid lightblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 40px -28px inset;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#hero p{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 400px;
+}
+
+#hero h2 {
+    font-size: 60px !important;
+    font-weight: 800 !important;
+    position: absolute;
+    top: 350px;
+    left: 680px;
+    font-size: 36px;
+}
+
+/* Materi */
+#materi p {
+    font-weight: 400 !important;
+    margin-bottom: 5px;
+}
+
+#materi ul li {
+    font-weight: 400 !important;
+    margin-bottom: 5px;
+}
+}
